@@ -1,0 +1,186 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ header {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 80px;
+     background-color: rgb(59, 59, 63);
+     z-index: 10;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     padding: 40px;
+ }
+
+ .header_logo {
+     height: 80px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+ }
+
+ .header_logo h2 {
+     font-size: x-large;
+ }
+
+ .header_navbar {
+     height: 80px;
+ }
+
+ .header_navbar ul {
+     list-style: none;
+     height: 80px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .header_navbar ul li a {
+     margin: 10px;
+     color: gray;
+     text-decoration: none;
+ }
+
+ .header_navbar .textwhite {
+     color: rgb(237, 232, 232);
+ }
+
+ .header_navbar .textgreen {
+     color: green;
+ }
+
+ .header_navbar ul li a:hover {
+     color: white;
+ }
+
+
+ .grad_img {
+     position: absolute;
+     background-color: rgba(0, 0, 0, .5);
+     width: 100%;
+     height: 100%;
+ }
+
+ .grad_img div {
+     bottom: 130px;
+     right: 130px;
+     text-align: end;
+ }
+
+ .oradores {
+     margin-top: 25px;
+     width: 100%;
+     text-align: center;
+ }
+
+ .tarjetas {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+ }
+
+ .resaltado_js {
+     max-width: max-content;
+     padding: 0 5px;
+     background-color: orange;
+     font-weight: bold;
+     font-size: x-small;
+     border-radius: 3px;
+     text-align: center;
+ }
+
+ .resaltado_r {
+     max-width: max-content;
+     padding: 0 5px;
+     background-color: cadetblue;
+     color: white;
+     font-weight: bold;
+     font-size: x-small;
+     border-radius: 3px;
+     text-align: center;
+ }
+
+ .resaltado_n {
+     max-width: max-content;
+     padding: 0 5px;
+     background-color: gray;
+     color: white;
+     font-weight: bold;
+     font-size: x-small;
+     border-radius: 3px;
+     text-align: center;
+ }
+
+ .resaltado_s {
+     max-width: max-content;
+     padding: 0 5px;
+     background-color: red;
+     color: white;
+     font-weight: bold;
+     font-size: x-small;
+     border-radius: 3px;
+     text-align: center;
+ }
+
+ .tarjetas p {
+     font-size: x-small;
+     line-height: 200%;
+ }
+
+ .octubre {
+     display: flex;
+     border: 1px solid white;
+ }
+
+ .texto_octubre {
+     padding: 1.5%;
+     background-color: rgb(59, 59, 63);
+     color: white;
+     text-align: left;
+     border: 1px solid white;
+ }
+
+ footer {
+     margin-top: 20px;
+     width: 100%;
+     height: auto;
+     z-index: 2;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #203f50;
+ }
+
+ .footer_navbar {
+     width: 80%;
+     height: auto
+ }
+
+ .footer_navbar ul {
+     list-style: none;
+     width: 100%;
+     height: 80px;
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     align-items: center;
+     font-size: small;
+     padding: 15px;
+ }
+
+ .footer_navbar ul li a {
+     margin: 4px;
+     color: white;
+     text-decoration: none;
+ }
+
+ .footer_navbar ul li a:hover {
+     color: grey;
+ }
