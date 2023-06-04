@@ -48,13 +48,6 @@
      text-decoration: none;
  }
 
- .header_navbar .textwhite {
-     color: rgb(237, 232, 232);
- }
-
- .header_navbar .textgreen {
-     color: green;
- }
 
  .header_navbar ul li a:hover {
      color: white;
@@ -184,3 +177,45 @@
  .footer_navbar ul li a:hover {
      color: grey;
  }
+
+ .descuentos {
+    margin-top: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+ }
+
+ .estudiante {
+    border: 1.5px solid blue;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+ }
+
+ .trainee {
+    border: 1.5px solid green;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+ }
+
+ .junior {
+    border: 1.5px solid red;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+ }
+
+ .venta {
+    width: 100%;
+    text-align: center;
+}
