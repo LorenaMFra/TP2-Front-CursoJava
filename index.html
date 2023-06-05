@@ -26,12 +26,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#laconferencia">La
-                            conferencia</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#laconferencia">La conferencia</a></li>
                     <li class="nav-item"><a class="nav-link" href="#losoradores">Los Oradores</a></li>
                     <li class="nav-item"><a class="nav-link" href="#ellugarylafecha">El lugar y la fecha</a></li>
-                    <li class="nav-item"><a class="nav-link disabled" href="#convierteteenorador">Conviértete en
-                            orador</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#convierteteenorador">Conviértete en orador</a></li>
                     <li class="nav-item"><a class="nav-link text-success" href="tickets.html">Comprar tickets</a></li>
                 </ul>
             </div>
@@ -39,8 +37,8 @@
     </header>
 
     <main>
-        <!-- PORTADA -->
-        <section>
+        <!-- PORTADA: LA CONFERENCIA -->
+        <section id="laconferencia">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
@@ -62,27 +60,26 @@
                                 evento, a otros estudiantes de Codo a Codo y los oradores de primer<br>
                                 nivel que tenemos para ti. Te esperamos!</p>
                             <div class="d-grid gap-2 d-md-block">
-                                <a href="#"><button type="button" class="btn btn-outline-light">Quiero ser
+                                <a href="#convierteteenorador"><button type="button" class="btn btn-outline-light">Quiero ser
                                         orador</button></a>
-                                <a href="tickets.html"><button type="button" class="btn btn-success c-green">Comprar
+                                <a href="tickets.html"><button type="button" class="btn btn-success">Comprar
                                         tickets</button></a>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
-        <!-- CONOCE A LOS ORADORES -->
+        <!-- CONOCE A LOS ORADORES (TARJETAS) -->
         <section>
-            <div class="oradores">
+            <div class="oradores" id="losoradores">
                 <h3 style="font-size: small;">CONOCE A LOS</h3>
                 <h3>ORADORES</h3>
             </div>
 
             <div class="tarjetas">
                 <div class="card" style="width: 17rem; margin: 15px;">
-                    <img src="img/steve.jpg" class="card-img-top" alt="...">
+                    <img src="img/steve.jpg" class="card-img-top" alt="Steve Jobs">
                     <div class="card-body">
                         <span class="resaltado_js">JavaScript</span>
                         <span class="resaltado_r">React</span>
@@ -96,7 +93,7 @@
                 </div>
 
                 <div class="card" style="width: 17rem; margin: 15px;">
-                    <img src="img/bill.jpg" class="card-img-top" alt="...">
+                    <img src="img/bill.jpg" class="card-img-top" alt="Bill Gates">
                     <div class="card-body">
                         <span class="resaltado_js">JavaScript</span>
                         <span class="resaltado_r">React</span>
@@ -110,7 +107,7 @@
                 </div>
 
                 <div class="card" style="width: 17rem; margin: 15px;">
-                    <img src="img/ada.jpeg" class="card-img-top" alt="...">
+                    <img src="img/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
                     <div class="card-body">
                         <span class="resaltado_n">Negocios</span>
                         <span class="resaltado_s">Startups</span>
@@ -124,11 +121,11 @@
                 </div>
             </div>
         </section>
-        <!-- BS AS OCTUBRE -->
+        <!-- LUGAR Y FECHA -->
         <section class="octubre">
             <img src="img/honolulu.jpg" alt="Honolulu" width="50%">
             <div class="texto_octubre">
-                <h4>Bs As - Octubre</h4>
+                <h4 id="ellugarylafecha">Bs As - Octubre</h4>
                 <p style="font-size: small;">Buenos Aires es la provincia y localidad más grande del estado de
                     Argentina, en los Estados Unidos.
                     Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de
@@ -138,9 +135,9 @@
                 <button type="button" class="btn btn-outline-light btn-sm">Conocé más</button>
             </div>
         </section>
-        <!-- CONVIERTETE EN UN ORADOR -->
+        <!-- CONVIERTETE EN UN ORADOR (FORM) -->
         <section>
-            <div class="oradores">
+            <div class="oradores" id="convierteteenorador">
                 <h3 style="font-size: small;">CONVIERTETE EN UN</h3>
                 <h3>ORADOR</h3>
                 <p>Anótate como orador para dar una
@@ -186,5 +183,4 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 </body>
-
 </html>

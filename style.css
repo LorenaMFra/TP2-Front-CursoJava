@@ -6,6 +6,7 @@
 
  header {
      position: fixed;
+     scroll-padding-top: auto;
      top: 0;
      left: 0;
      width: 100%;
@@ -17,6 +18,15 @@
      align-items: center;
  }
 
+ /* Agregar espacio superior adicional para el desplazamiento */
+:target::before {
+    content: "";
+    display: block;
+    height: 110px; /* Altura del navbar */
+    margin: -110px 0 0; /* Altura del navbar en negativo */
+    visibility: hidden;
+  }
+
  .header_logo {
      width: 220px;
      height: 80px;
@@ -25,7 +35,6 @@
      justify-content: center;
      align-items: center;
      color: white;
-
  }
 
  .header_logo h2 {
@@ -40,7 +49,7 @@
  }
 
  .header_navbar ul li a {
-     margin: 5px;
+     margin: 0px 0px 0px 10px;
      color: gray;
      text-decoration: none;
  }
@@ -57,8 +66,8 @@
  }
 
  .grad_img div {
-     bottom: 130px;
-     right: 130px;
+     bottom: 80px;
+     right: 100px;
      text-align: end;
  }
 
@@ -202,7 +211,7 @@
  }
 
  .junior {
-     border: 1.5px solid red;
+     border: 1.5px solid orange;
      width: 200px;
      height: 200px;
      padding: 20px;
